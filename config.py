@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EsproUpdate")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/EsproSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VIP_MusicxSuppport")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/VIP_Musicx_Support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,19 +78,19 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://graph.org/file/29dfb41748ec7561eac20-45780a2f354a627bda.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://graph.org/file/b9f4ac553ba9975d7310d-ceca3a3be736f769a1.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/3a563ac34a097dfd05748-db44ef6b00fdf45615.jpg"
+STATS_IMG_URL = "https://graph.org/file/e7b85af0129633342e319-88358f7442535860fb.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/d63cb61f334951ef61b1b-9dcace3e89dc0f79fb.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/443787846a2b43a108d47-9f897aeca88db0801e.jpg"
+STREAM_IMG_URL = "https://graph.org/file/95d7b9bacbde8cb91b892-e37407d3868445138f.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/fe802bf918ba1828de32a-e82fc2c9af7af46904.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/11775f70848825604e558-83e2d0e2b563321ca4.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/65bee91f058d5dd83319f-e2758fbd86bd4fb890.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
 
