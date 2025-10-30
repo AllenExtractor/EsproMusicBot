@@ -7,15 +7,15 @@ from pyrogram import Client
 from pyrogram.types import InlineKeyboardMarkup
 from ntgcalls import PyTgCalls
 from ntgcalls.types import StreamType
-from pytgcalls.exceptions import (
+from ntgcalls.exceptions import (
     AlreadyJoinedError,
     NoActiveGroupCall,
     TelegramServerError,
 )
-from pytgcalls.types import Update
-from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQualityVideo
-from pytgcalls.types.stream import StreamAudioEnded
+from ntgcalls.types import Update
+from ntgcalls.types.input_stream import AudioPiped, AudioVideoPiped
+from ntgcalls.types.input_stream.quality import HighQualityAudio, MediumQualityVideo
+from ntgcalls.types.stream import StreamAudioEnded
 
 import config
 from EsproMusic import LOGGER, YouTube, app
