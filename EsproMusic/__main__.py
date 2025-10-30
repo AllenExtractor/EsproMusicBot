@@ -2,7 +2,7 @@ import asyncio
 import importlib
 
 from pyrogram import idle
-from ntgcalls.exceptions import NoActiveGroupCall
+from ntgcalls import NoActiveGroupCall
 
 import config
 from EsproMusic import LOGGER, app, userbot
