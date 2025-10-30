@@ -13,7 +13,7 @@ motor
 pillow
 psutil
 lexica-api
-pytgcalls==2.0.0.dev4
+pytgcalls==1.2.3
 pykeyboard
 pyrofork
 python-dotenv
