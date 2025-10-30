@@ -91,8 +91,8 @@ STREAM_IMG_URL = "https://graph.org/file/95d7b9bacbde8cb91b892-e37407d3868445138
 SOUNCLOUD_IMG_URL = "https://graph.org/file/fe802bf918ba1828de32a-e82fc2c9af7af46904.jpg"
 YOUTUBE_IMG_URL = "https://graph.org/file/11775f70848825604e558-83e2d0e2b563321ca4.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/65bee91f058d5dd83319f-e2758fbd86bd4fb890.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/f94c695f2e8665aab70c7-f6bd332b661f653dc1.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/8cb276fcdb1863e14984d-6f0b70874587011817.jpg"
 
 
 def time_to_seconds(time):
