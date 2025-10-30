@@ -3,7 +3,7 @@ import string
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
-from pytgcalls.exceptions import NoActiveGroupCall
+from ntgcalls.exceptions import NoActiveGroupCall
 
 import config
 from EsproMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
@@ -661,3 +661,4 @@ async def slider_queries(client, CallbackQuery, _):
         return await CallbackQuery.edit_message_media(
             media=med, reply_markup=InlineKeyboardMarkup(buttons)
         )
+
